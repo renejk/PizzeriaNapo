@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzería Napolitana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pizzería Napolitana</h1>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-text">
+          <h2>El auténtico sabor de Nápoles</h2>
+          <p>La tradición de la pizza napolitana en cada bocado.</p>
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-container">
+          <!-- Pizza items will be injected here by JavaScript -->
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>Nuestra Historia</h2>
+        <article>
+          <p>
+            Desde 1950, nuestra familia ha estado perfeccionando el arte de la
+            pizza napolitana. Usamos solo los ingredientes más frescos y un
+            horno de leña tradicional para ofrecerte una experiencia
+            inolvidable.
+          </p>
+
+          <iframe
+            width="481"
+            height="855"
+            src="https://www.youtube.com/embed/lgaXoKm9aaM"
+            title="Receta Pizza estilo Napolitano en 3 horas Paso a Paso"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2>Contacto y Horarios</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Dirección</h3>
+            <p>Calle Falsa 123, Springfield</p>
+            <h3>Teléfono</h3>
+            <p>+54 9 11 1234-5678</p>
+            <h3>Horarios de Apertura</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Día</th>
+                  <th>Horario</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lunes - Jueves</td>
+                  <td>18:00 - 23:00</td>
+                </tr>
+                <tr>
+                  <td>Viernes - Sábado</td>
+                  <td>18:00 - 00:00</td>
+                </tr>
+                <tr>
+                  <td>Domingo</td>
+                  <td>Cerrado</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="map">
+            <h3>Encuéntranos</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.332439999923!2d-122.0842496846959!3d37.42247647982522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5e8f5a4de37%3A0x88e8a69a3b7c2b4!2sGoogleplex!5e0!3m2!1ses!2sus!4v1678908815243!5m2!1ses!2sus"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Pizzería Napolitana. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
